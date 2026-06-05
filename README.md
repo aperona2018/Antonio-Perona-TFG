@@ -8,6 +8,8 @@ This repository contains the source code of an antenna measurement application d
 
 * MATLAB
 * MATLAB App Designer
+* Robotics System Toolbox (Version 24.2)
+
 
 ## Running the Application
 
