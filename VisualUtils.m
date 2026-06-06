@@ -63,7 +63,7 @@ classdef VisualUtils
 
         function showRobotEnvPanel(SimulationPanel, AppRobotInstance, robotCurrentConfig, env)
             delete(findall(SimulationPanel, 'Type', 'axes'));
-            ax = axes('Parent', SimulationPanel);  % Estilo explícito
+            ax = axes('Parent', SimulationPanel); 
             
             hold(ax, 'on');
             axis(ax, 'equal');
